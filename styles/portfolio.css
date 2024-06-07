@@ -54,10 +54,11 @@ nav a{
 /*header releted style*/
 .header{
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-size: 600px;
-    background-position:bottom right;
+    
+    background-position:bottom right, top left;
+
 
 }
 .banner{
@@ -68,8 +69,8 @@ nav a{
     justify-content: space-between;
 }
 .banner .profile-pic{
-    width: 500px;
-    height: 500spx;
+    width: 600px;
+    height: 6000spx;
 }
 .banner-greeting{
     font-size: 45;
