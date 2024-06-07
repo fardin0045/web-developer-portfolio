@@ -53,7 +53,7 @@ nav a{
 }
 /*header releted style*/
 .header{
-    background-color: antiquewhite;
+    background-color: #FFF8F3;
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-size: 600px;
@@ -78,7 +78,21 @@ nav a{
 }
 .about{
     padding: 130px;
-    margin: 130px;
-   
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 100px 0px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
 
+}
+.about-info{
+    text-align: center;
+}
+}
+main{
+    width: 1140px;
+    margin: 0 auto;
+    background-color: antiquewhite;
 }
