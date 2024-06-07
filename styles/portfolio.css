@@ -14,7 +14,7 @@ body{
     font-weight: 700px;
 }
 .sector-description{
-    color: antiquewhite;
+    color:#FFF8F3;
     text-align: center;
     font-size: 18px;
 }
@@ -90,9 +90,22 @@ nav a{
 .about-info{
     text-align: center;
 }
-}
+
 main{
     width: 1140px;
     margin: 0 auto;
-    background-color: antiquewhite;
+    background-color:;
+}
+#what-i--do{
+    padding: 30px 150px;
+    
+    
+}
+.section-what-i-do{
+    background-color:none;
+    padding:10px ;
+    justify-content: space-around;
+}
+.skill-container{
+    display: flex;
 }
